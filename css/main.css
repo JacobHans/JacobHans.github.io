@@ -16,6 +16,7 @@
 .titleBlock{
 	width: 100%;
 	height:300px;
+  margin-top:-50px;
 	/*background-image: linear-gradient(-45deg,#218953,#2c528c);*/
 	text-align:center;
       background: linear-gradient(95deg, #439e6f, #2c528c, #ffa172);
@@ -42,7 +43,7 @@
 }
 .titleBlock h1 {
 	color: white;
-	padding-top:80px;
+	padding-top:120px;
 	font-size:40px;
 	font-family: Mont;
 }
@@ -133,16 +134,29 @@
   border-radius: 5px;
   margin: 4.5%;
   transition:0.3s;
+  text-align: center;
+  vertical-align: bottom;
 }
 .projectBox:hover{
   background-color:#efefef;
   border: 3px solid #227249;
   cursor:pointer;
 }
+.projectBox p{
+  color:#36a072;
+  font-family: MontThin;
+  font-size: 25px;
+  margin: 30px;
+}
 
 /* modify the content when screen is smaller*/
 @media screen and (max-width: 1250px){
   #barContent{
     width:100% !important;
+  }
+  .projectBox{
+    width:100% !important;
+    margin-left:0;
+    margin-top:15px;
   }
 }
