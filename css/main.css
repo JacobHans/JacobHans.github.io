@@ -165,10 +165,14 @@
     width:100% !important;
     margin-left:0;
     margin-top:15px;
+    height:350px;
   }
   .projectBox p{
     margin:30px !important;
     font-size:30px;
+  }
+  .flexBox {
+    width:95%;
   }
   .flexBox p{
     margin:0;
