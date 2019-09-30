@@ -55,6 +55,7 @@
 .mainContent{
   width:100%;
   display: inline-block;
+  padding-bottom:500px;
 }
 .mainContent h1 {
   color:#36a072;
@@ -173,9 +174,6 @@
   }
   .flexBox {
     width:95%;
-  }
-  .flexBox p{
-    margin:0;
   }
   .flexBox h1{
     margin:30px 0;
